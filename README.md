@@ -26,7 +26,7 @@ La web permite a patricia ofrecer sus servicios de manera profesional en linea.
 - con potenciales clientes.
 - **Mapa de Google**: Para mostrar la ubicación de la oficina de Patricia.
 
-![Vista previa de la web](https://)
+![Vista previa de la web](https://github.com/Twinkym/web-patricia/blob/master/public/img/Primer-esbozo-pagina-patricia.png)
 
 ---
 
@@ -60,7 +60,7 @@ Redes Sociales  | Iformación de Contacto | Mapa de Google  |
    Instagram    |                        |                 |
    Youtube      |                        |                 |
 
-![Footer del sitio](https://)
+![Footer del sitio](https://github.com/Twinkym/web-patricia/blob/master/public/img/Captura-Pagina-Iconos-Redes.png)
 
 ### 5. **Mobile First** - **Diseño responsive**
 El diseño está completamente optimizado para dispositivos móviles, 
@@ -70,7 +70,7 @@ asegurando que los usuarios tengan una experiencia fluida desde cualquier dispos
 ![Vista móvil](https://)
 
 #### Vista en escritorio
-![Vista escritorio](https://)
+![Vista escritorio](https://github.com/Twinkym/web-patricia/blob/master/public/img/Primer-esbozo-pagina-patricia.png)
 
 ---
 
