@@ -1,0 +1,189 @@
+@import "~bootstrap/scss/bootstrap";
+
+// Personalizar las variables de Bootstrap, por ejemplo:
+
+$theme-colors: (
+    "primary": #0d6efd,
+    "success": #198754,
+    "info": #0dcaf0,
+    "background-color": #f8f9fa
+);
+
+// Opciones adicionales
+
+$custom-font-family: 'Roboto', sans-serif;
+
+
+// Añade tus estilos personalizados a continuación:
+
+body {
+    font-family: $custom-font-family;
+    background-color: #f8f9fa;
+}
+
+.image-slider-container {
+    // Añade espacio entre el slider y el navbar y la sección about.
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    // Estilo base para pantallas móviles (Mobile First).
+    .slider-image {
+        width: 100%; //La imagen ocupa el 100% del ancho del contennedor en móviles.
+        height: auto; // Ajuste automático de la altura para mantener la proporción de la imagen.
+        max-width: 100%; // Asegura que no sobrepase el contenedor.
+    }
+
+    // Para pantallas más grandes (tablets y desktops).
+    @media (min-width: 768px) {
+        .slider-image {
+            width: 800px !important; // Ajusta el tamaño del ancho a 800px en pantallas grandes.
+            height: 600px !important; // Ajusta el tamaño del alto a 600px en pantallas grandes.
+            margin: 0 auto !important; // Centra la imagen en pantallas grandes.
+        }
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); // Un color gris oscuro con transparencia.
+    border-radius: 50%; // Haz las flechas más suaves y redondeadas.
+    width: 3rem; // Ajusta el tamaño de las flechas.
+    height: 3rem; // Ajusta el tamaño de las flechas.
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8); // Un color gris claro con transparencia.
+}
+
+.about-section {
+    text-align: center;
+    .profile-image {
+        width: 150px; // Ancho deseado
+        height: 150px; // Alto deseado
+        object-fit: cover; // Ajusta la imagen al tamaño deseado
+        border-radius: 50%;
+        border: 3px solid #ddd;
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    h2 {
+        margin-bottom: 20px; // Añadir un margen para separar el titulo del contenido.
+    }
+
+}
+
+.contact-form {
+    margin-top: 20px;
+    background-color: #0dcaf0; // Color de fondo del formulario.
+    padding: 20px 0 ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 60px rgba(158, 84, 134, 0.8);
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+}
+
+.footer {
+    background-color: #f8f9fa; // Color suave de fondo del footer.
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 20px;
+    }
+
+    // Sección izquierda (redes sociales).
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 20px;
+        gap: 10px;
+
+        a {
+            color: #333; // Color del texto.
+            text-decoration: none;
+            font-size: 1rem;
+    
+            &:hover{
+                color: #007bff; // Color del texto al pasar el cursor.
+            }
+    
+            i {
+                margin-right: 5px; // Espacio entre el icono y el texto.
+            }
+        }    
+    }
+
+    // Sección central (nombre y contacto).
+    .footer-center {
+        text-align: center;
+
+        p {
+            margin: 0;
+            color: #333;
+            font-size: 0.9rem; // Tamaño de fuente para un diseño limpio.
+        }
+    }
+
+    // Sección derecha (mapa).
+    .footer-right {
+        iframe {
+            border-radius: 10px !important; // bordes redondeados para el mapa.
+            box-shadow: 0 0 10px regba(0, 0, 0, 0.2); // sombra suave para el mapa.
+        }
+    }
+
+    // Estilos para dispositivos móviles.
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            .footer-left,
+            .footer-right{
+                margin: 10px 0;
+            }
+
+            .footer-right{
+                ifrema {
+                    width: 100% !important; // El mapa ocuopa el 100% en pantallas pequeñas.
+                    height: 200px !important; // Ajuste de altura en móvil.
+                }
+            }
+        }
+    }
+
+}
+
