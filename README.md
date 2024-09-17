@@ -1,4 +1,4 @@
-# ❗Web de Servicios Administrativos de Patrica ❗
+# ❗Web de Servicios Administrativos de Patricia ❗
 
 ¡Bienvenido al repositorio del sitio web de **Patricia**! Este proyecto está
 desarrollado con **React**, **SASS** y **Bootstrap** y sigue un enfoque de 
