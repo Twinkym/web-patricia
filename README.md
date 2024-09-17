@@ -113,20 +113,7 @@ Este proyecto está desplegado en ....... y puedes ver la versión en vivo aquí
 
 ## 📚 Estructura del Proyecto
 
-/web-patricia
-│
-├── /node_modules
-├── /public
-│   ├── /img (Carpeta con las imágenes del proyecto)
-│   └── index.html
-├── /src
-│   ├── /components (Componentes React del proyecto)
-│   ├── /styles (Archivos SASS y CSS)
-│   ├── App.js
-│   ├── App.scss
-│   └── index.js
-├── package.json
-└── README.md
+[Estructura del proyecto](https://github.com/Twinkym/web-patricia/blob/master/public/img/ESTRUCTURA-BASICA-DE-UN-PROYECTO_1.webp)
 ---
 
 ## 🙋 Contribuciones
