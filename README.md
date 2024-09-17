@@ -113,7 +113,7 @@ Este proyecto está desplegado en ....... y puedes ver la versión en vivo aquí
 
 ## 📚 Estructura del Proyecto
 
-![Estructura del proyecto](https://github.com/Twinkym/web-patricia/blob/master/public/img/ESTRUCTURA-BASICA-DE-UN-PROYECTO_1.webp)
+![Estructura del proyecto](https://github.com/Twinkym/web-patricia/blob/master/public/img/ESTRUCTURA-BASICA-DE-UN-PROYECTO_1.png))
 ---
 
 ## 🙋 Contribuciones
